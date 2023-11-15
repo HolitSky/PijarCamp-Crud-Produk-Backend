@@ -1,0 +1,29 @@
+GET http://localhost:5000/produk
+
+###
+GET http://localhost:5000/produk/1
+
+###
+POST http://localhost:5000/produk
+Content-Type:  application/json
+
+{
+    "nama_produk": "ASUS ???",
+    "keterangan": "Laptop ???",
+    "harga": 1000000,
+    "jumlah": 1
+}
+
+###
+PATCH http://localhost:5000/produk/1
+Content-Type:  application/json
+
+{
+    "nama_produk": "HP VICTUS 16",
+    "keterangan": "Laptop Gaming 2022",
+    "harga": 13000000,
+    "jumlah": 5
+}
+
+###
+DELETE http://localhost:5000/produk/3
