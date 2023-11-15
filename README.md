@@ -15,3 +15,4 @@
 
 ![configure-db](https://github.com/HolitSky/PijarCamp-Crud-Produk-Backend/assets/90766619/d1b58592-cdfd-4d67-9ebf-1bbc922d6632)
 
+3. Start the server using 'nodemon index'
